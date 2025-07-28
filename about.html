@@ -1,1 +1,342 @@
+---
+layout: page
+# articles:
+#   excerpt_type: html
+---
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>许超课题组 | Chao Xu Research Group</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <style>
+    :root {
+      --accent: #0056e0;
+      --bg: #f9fafb;
+      --border: #e2e8f0;
+      --tab-inactive: #f6f7fa;
+      --tab-active: #fff;
+      --font: 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+      --radius: 12px;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      font-family: var(--font);
+      color: #222;
+      line-height: 1.7;
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 32px auto;
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: 0 4px 18px 0 rgba(30,42,77,0.06);
+      padding: 32px 2vw 38px 2vw;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 2em;
+      letter-spacing: -2px;
+      color: var(--accent);
+      margin-bottom: 0.2em;
+      font-weight: bold;
+      text-align: center;
+    }
+    .tabs-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 18px;
+      margin-bottom: 0;
+    }
+    .tabs {
+      display: inline-block;
+    }
+    /* Hide radio buttons */
+    .tabs input[type="radio"] {
+      display: none;
+    }
+    .tabs label {
+      display: inline-block;
+      padding: 10px 38px;
+      margin: 0;
+      border-radius: var(--radius) var(--radius) 0 0;
+      background: var(--tab-inactive);
+      cursor: pointer;
+      border: 1.5px solid var(--border);
+      border-bottom: none;
+      color: #333;
+      font-size: 1.07em;
+      transition: 
+        background .13s,
+        color .13s,
+        border .16s;
+    }
+    .tabs label:not(:first-of-type) {
+      margin-left: -5px;
+    }
+    /* Active tab */
+    .tabs input[type="radio"]:checked + label {
+      background: var(--tab-active);
+      color: var(--accent);
+      font-weight: bold;
+      border-bottom: 1.5px solid var(--tab-active);
+      z-index: 2;
+      position: relative;
+    }
+    .tab-content {
+      display: none;
+      border: 1.5px solid var(--border);
+      border-top: none;
+      background: #fff;
+      border-radius: 0 0 var(--radius) var(--radius);
+      padding: 30px 20px 20px 20px;
+      min-height: 120px;
+    }
+    /* Show checked tab only */
+    #tab1:checked ~ #content1,
+    #tab2:checked ~ #content2,
+    #tab3:checked ~ #content3,
+    #tab4:checked ~ #content4 {
+      display: block;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .subtitle {
+      color: #666;
+      font-size: 1em;
+      margin-bottom: 18px;
+      letter-spacing: 0.6px;
+      font-weight: 400;
+    }
+    .section-title {
+      font-size: 1.1em;
+      color: var(--accent);
+      font-weight: bold;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+    }
+    ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .pub-year-title {
+      font-weight: bold;
+      margin: 22px 0 10px 0;
+      color: #555;
+      font-size: 1.1em;
+    }
+    .pub-list li {
+      margin-bottom: 18px;
+      border-left: 3px solid #e5e8fb;
+      padding-left: 10px;
+      background: #fafaff;
+      border-radius: 5px;
+      font-size: 0.98em;
+    }
+    .pub-title {
+      font-weight: 500;
+      margin-bottom: 1px;
+    }
+    .pub-authors, .pub-journal {
+      color: #555;
+      font-size: .97em;
+      margin-bottom: 2px;
+    }
+    .contact-list, .profile-list {
+      list-style: none;
+      margin: 0 0 24px 0;
+      padding: 0;
+    }
+    .profile-list li {
+      margin-bottom: 7px;
+    }
+    .members-group {
+      margin-bottom: 18px;
+    }
+    .alumni-title {
+      margin-top: 16px;
+      font-weight: bold;
+      color: #888;
+    }
+    /* Responsive */
+    @media (max-width: 700px) {
+      .wrap { padding: 10px 2vw 24px 2vw;}
+      .tabs label { padding: 8px 4vw; font-size: 1em;}
+      .tab-content { padding: 18px 2vw; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h1>许超课题组 <span style="font-size:1rem;color:#444;font-weight:400;">| Chao Xu Research Group</span></h1>
+  
+  <div class="tabs-container">
+    <div class="tabs">
+      <input type="radio" name="tabgroup" id="tab1" checked>
+      <label for="tab1">Research</label>
+      <input type="radio" name="tabgroup" id="tab2">
+      <label for="tab2">Group Leader</label>
+      <input type="radio" name="tabgroup" id="tab3">
+      <label for="tab3">Publications</label>
+      <input type="radio" name="tabgroup" id="tab4">
+      <label for="tab4">Members</label>
+      
+      <!-- RESEARCH TAB -->
+      <div class="tab-content" id="content1">
+        <div class="section-title">研究方向 | Research Focus</div>
+        <ul class="profile-list">
+          <li>高能量密度锂离子电池正负极材料</li>
+          <li>高性能钠离子电池正极材料</li>
+          <li>电化学原位/操作性表征技术</li>
+        </ul>
+        <div style="margin-bottom:20px;">
+          我们课题组致力于开发新一代可充电锂/钠离子电池的关键材料，并利用多种先进（特别是原位/操作性）表征手段，深入研究其反应机制，以促进可持续与碳中和社会的实现。
+        </div>
+        <div style="margin-bottom:24px;">
+          We develop key materials for next-generation rechargeable lithium-ion and sodium-ion batteries and study their fundamental mechanisms using advanced characterisation techniques, particularly in-situ and operando methods.
+        </div>
+        <div class="section-title">招收人员 | Open Positions</div>
+        <div>
+          本课题组长期诚聘博士后研究员、硕博连读及硕士生，欢迎化学、物理、材料等相关背景、对电化学储能方向感兴趣的同学和学者加盟！有意请邮件联系 <a href="mailto:xuchao1@shanghaitech.edu.cn">xuchao1@shanghaitech.edu.cn</a>，附研究兴趣、背景介绍、CV等。
+        </div>
+        <div style="margin-top:14px;">
+          We openly invite applications from motivated undergraduates, graduate students, and postdocs (with background in chemistry, physics, materials). Email a CV and motivation letter to Assist. Prof. Chao Xu.
+        </div>
+      </div>
+      
+      <!-- Group Leader TAB -->
+      <div class="tab-content" id="content2">
+        <div class="subtitle">许超，助理教授、研究员 | Chao Xu, Tenure-Track Assistant Professor, Principal Investigator</div>
+        <ul class="contact-list">
+          <li>📍 通讯地址：上海科技大学物质学院2号楼405C</li>
+          <li>✉️ Email：<a href="mailto:xuchao1@shanghaitech.edu.cn">xuchao1@shanghaitech.edu.cn</a></li>
+          <li>🔗 ORCiD: <a href="https://orcid.org/0000-0001-5416-5343" target="_blank">orcid.org/0000-0001-5416-5343</a></li>
+        </ul>
+        <div class="section-title">个人简历 | Profile</div>
+        <ul class="profile-list">
+          <li>2006.08-2010.06 南京理工大学 本科 | Nanjing University of Science and Technology, BE</li>
+          <li>2010.08-2012.07 瑞典乌普萨拉大学 硕士 | Uppsala University, MSc</li>
+          <li>2012.11-2017.07 瑞典乌普萨拉大学 博士 | Uppsala University, PhD</li>
+          <li>2017.07-2018.02 瑞典乌普萨拉大学 博士后 | Uppsala University, Postdoc</li>
+          <li>2018.02-2021.05 英国剑桥大学 博士后 | University of Cambridge, Postdoc research associate</li>
+          <li>2021.06-至今 上海科技大学 助理教授、研究员 | ShanghaiTech University</li>
+        </ul>
+        <div class="section-title">课程教学 | Teaching</div>
+        <ul>
+          <li>CHEM2109 电化学原理、方法和应用（3学分研究生课程，春学期）</li>
+          <li>CHEM2126 电化学材料与器件（含实验）（2学分本研一体课程，秋学期）</li>
+        </ul>
+      </div>
+      
+      <!-- PUBLICATIONS TAB -->
+      <div class="tab-content" id="content3">
+        <div class="section-title">代表性论文 | Selected Publications</div>
+        <!-- 2025 -->
+        <div class="pub-year-title">2025</div>
+        <ul class="pub-list">
+          <li>
+            <div class="pub-title">Enabling the synthesis of O3-type sodium anion-redox cathodes via atmosphere modulation.</div>
+            <div class="pub-authors">Qiu, Y., Liu, Q., Tao, J., Yan, P., Tan, G., Liu, F., Wang, D., Yu, N., Zhang, N., Yang, Y., Wang, W., Wang, Y., Cao, K., Wang, J.,* Lun, Z.* & Xu, C.*</div>
+            <div class="pub-journal"><span style="font-style:italic">Nat. Commun.</span> 16, 2343 (2025).</div>
+            <a href="https://doi.org/10.1038/s41467-025-57665-1" target="_blank">https://doi.org/10.1038/s41467-025-57665-1</a>
+          </li>
+          <li>
+            <div class="pub-title">Navigating low state of charge phase transitions in layered cathodes for long-life sodium-ion batteries.</div>
+            <div class="pub-authors">Li, W., Li, Z., Li, L., Merryweather, A. J., Chen, Y., Yang, S., Shi, H., Lu, Y., Qiu, Y., Tan, G., Chen, Z., Wang, W., Wang, Y., Huang, Y.-F., Lun, Z., Schnedermann, C., Gao, X.,* Wang, J.,* Grey, C. P.* & Xu, C.*</div>
+            <div class="pub-journal"><span style="font-style:italic">Energy Environ. Sci.</span> (2025).</div>
+            <a href="https://doi.org/10.1039/D5EE00422E" target="_blank">https://doi.org/10.1039/D5EE00422E</a>
+          </li>
+        </ul>
+        <!-- 2024 -->
+        <div class="pub-year-title">2024</div>
+        <ul class="pub-list">
+          <li>
+            <div class="pub-title">Microstructures of layered Ni-rich cathodes for lithium-ion batteries.</div>
+            <div class="pub-authors">Lu, J., Xu, C., Dose, W., Dey, S., Wang, X., Wu, Y., Li, D. & Ci, L.</div>
+            <div class="pub-journal"><span style="font-style:italic">Chem. Soc. Rev.</span> 53, 4707-4740 (2024).</div>
+            <a href="https://doi.org/10.1039/d3cs00741c" target="_blank">https://doi.org/10.1039/d3cs00741c</a>
+          </li>
+        </ul>
+        <!-- 2023 -->
+        <div class="pub-year-title">2023</div>
+        <ul class="pub-list">
+          <li>
+            <div class="pub-title">Benchmarking the Performance of Moisture-Sensitive Battery Materials: the Importance of the Electrode Preparation Method.</div>
+            <div class="pub-authors">Li, L., Tan, G., Tao, J., Lun, Z.* & Xu, C.*</div>
+            <div class="pub-journal"><span style="font-style:italic">ACS Appl. Energy Mater.</span> 6, 6883-6889 (2023).</div>
+          </li>
+        </ul>
+        <!-- 2022 -->
+        <div class="pub-year-title">2022</div>
+        <ul class="pub-list">
+          <li>
+            <div class="pub-title">Operando visualization of kinetically induced lithium heterogeneities in single-particle layered Ni-rich cathodes.</div>
+            <div class="pub-authors">Xu, C., Merryweather, A. J., Pandurangi, S. S., Lun, Z., Hall, D. S., Deshpande, V. S., Fleck, N. A., Schnedermann, C., Rao, A. & Grey, C. P.</div>
+            <div class="pub-journal"><span style="font-style:italic">Joule</span> 6, 2535-2546 (2022).</div>
+          </li>
+        </ul>
+        <!-- Prior to ShanghaiTech -->
+        <div class="pub-year-title">Prior to ShanghaiTech</div>
+        <ul class="pub-list">
+          <li>
+            <div class="pub-title">Bulk fatigue induced by surface reconstruction in layered Ni-rich cathodes for Li-ion batteries.</div>
+            <div class="pub-authors">Xu, C.; Märker, K.; Lee, J.; Mahadevegowda, A.; Reeves, P. J.; Day, S. J.; Groh, M. F.; Emge, S. P.; Ducati, C.; Layla Mehdi, B.; Tang, C. C.; Grey, C. P.</div>
+            <div class="pub-journal"><span style="font-style:italic">Nat. Mater.</span> 2021, 20, 84-92.</div>
+            <a href="https://doi.org/10.1038/s41563-020-0767-8" target="_blank">https://doi.org/10.1038/s41563-020-0767-8</a>
+          </li>
+          <li>
+            <div class="pub-title">Phase Behavior during Electrochemical Cycling of Ni-Rich Cathode Materials for Li-Ion Batteries.</div>
+            <div class="pub-authors">Xu, C.; Reeves, P. J.; Jacquet, Q.; Grey, C. P.</div>
+            <div class="pub-journal"><span style="font-style:italic">Adv. Energy Mater.</span> 2021, 11, 2003404.</div>
+            <a href="https://doi.org/10.1002/aenm.202003404" target="_blank">https://doi.org/10.1002/aenm.202003404</a>
+          </li>
+        </ul>
+      </div>
+          
+      <!-- MEMBERS TAB -->
+      <div class="tab-content" id="content4">
+        <div class="section-title">在组成员 | Current Group Members</div>
+        <div class="members-group">
+          <strong>2021级硕博连读：</strong>
+          谭光速 (<a href="mailto:tangs@shanghaitech.edu.cn">tangs@shanghaitech.edu.cn</a>)，
+          杨劭宇 (<a href="mailto:yangshy@shanghaitech.edu.cn">yangshy@shanghaitech.edu.cn</a>)
+        </div>
+        <div class="members-group">
+          <strong>2022级硕博连读：</strong>
+          仇奕霄 (<a href="mailto:qiuyx2022@shanghaitech.edu.cn">qiuyx2022@shanghaitech.edu.cn</a>)
+        </div>
+        <div class="members-group">
+          <strong>2022级硕士研究生：</strong>
+          李闻达 (<a href="mailto:liwd2022@shanghaitech.edu.cn">liwd2022@shanghaitech.edu.cn</a>)，
+          王双宏 (<a href="mailto:wangshh2022@shanghaitech.edu.cn">wangshh2022@shanghaitech.edu.cn</a>)
+        </div>
+        <div class="members-group">
+          <strong>2023级硕士研究生：</strong>
+          杨俊隆 (<a href="mailto:yangjl2023@shanghaitech.edu.cn">yangjl2023@shanghaitech.edu.cn</a>)
+        </div>
+        <div class="members-group">
+          <strong>2024级硕士研究生：</strong>
+          丁磊 (<a href="mailto:dinglei2024@shanghaitech.edu.cn">dinglei2024@shanghaitech.edu.cn</a>)
+        </div>
+        <div class="alumni-title">Alumni</div>
+        <div>
+          李立志（2024届硕士研究生）<br>
+          陶江伟（2025届硕士毕业生）
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
 
