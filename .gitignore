@@ -16,6 +16,19 @@ node_modules/
 
 /.bundle/
 /vendor/bundle
+.bundle-cache/
+.bundle-home/
+.home/
+.gem-bin/
+.gem-bin-test/
+.gem-bin-local-test/
+.gem-cache/
+.gem-cache-test/
+.gem-cache-test2/
+.gem-cache-local-test/
+.gem-home/
+.gem-test/
+.gem-local-test/
 *.gem
 
 yarn.lock
