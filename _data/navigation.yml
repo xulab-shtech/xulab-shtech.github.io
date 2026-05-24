@@ -3,11 +3,11 @@ header:
       en: Research
     url: /research.html
   - titles:
-      en: PI
-    url: /pi.html
-  - titles:
       en: Publications
     url: /publications.html
+  - titles:
+      en: PI
+    url: /pi.html
   - titles:
       en: Members
     url: /members.html

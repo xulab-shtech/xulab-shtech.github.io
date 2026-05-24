@@ -3,6 +3,8 @@ layout: page
 titles:
   en: Contact
 show_title: false
+aside:
+  toc: true
 ---
 
 <section class="group-page-title">

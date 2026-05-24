@@ -3,6 +3,8 @@ layout: page
 titles:
   en: Members
 show_title: false
+aside:
+  toc: true
 ---
 
 <section class="group-page-title">
