@@ -16,6 +16,10 @@ aside:
 
 ## 2026
 
+5\. **Probing the critical nickel content for layered ultrahigh-nickel cathodes for high-energy-density lithium-ion batteries**  
+   Tan, G.; Chen, Z.; Qiu, Y.; Yang, S.; Wang, S.; Zhang, X.; Fan, Z.; Xu, C.\*  
+   *Journal of Power Sources* 688, 240525 (2026). [DOI](https://doi.org/10.1016/j.jpowsour.2026.240525)
+
 4\. **Elucidating Structural Dynamics to Stabilize High-Voltage Cycling in O3-Type Layered Cathodes for Sodium-Ion Batteries**  
    Chen, Z.; Yang, S.; Tang, G.; Liu, Q.; Li, W.; Zhang, X.; Hou, W.; Wang, R.; Liu, X.; Xu, C.\*  
    *Small* e202514344 (2026). [DOI](https://doi.org/10.1002/smll.202514344)
