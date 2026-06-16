@@ -257,6 +257,15 @@ a.group-button--primary:visited:focus,
   color: #fc4d50;
 }
 
+.publication-toc-figure {
+  display: block;
+  width: min(520px, 100%);
+  margin: .75rem 0 1.35rem;
+  border: 1px solid #e2e8e5;
+  border-radius: 6px;
+  background: #fff;
+}
+
 .group-pi-layout,
 .group-member-feature {
   display: grid;

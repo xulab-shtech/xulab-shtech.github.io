@@ -27,6 +27,7 @@ aside:
 3\. **Frustrated Oxygen Loss Enabled by Magnesium Migration in O3-Type Anionic Redox Cathodes for Sodium-Ion Batteries**  
    Yang, S.; Yan, P.; Liu, Q.; Chen, Z.; Qiu, Y.; Tan, G.; Chen, H.; Hou, W.; Qu, Y.; Wang, R.; Zhang, B.; Lun, Z.; Cao, K.; Liu, X.\*; Xu, C.\*  
    *Energy Storage Materials* 86, 104963 (2026). [DOI](https://doi.org/10.1016/j.ensm.2026.104963)
+   ![TOC figure for Frustrated Oxygen Loss Enabled by Magnesium Migration in O3-Type Anionic Redox Cathodes for Sodium-Ion Batteries](/assets/images/toc/ensm-2026-frustrated-oxygen-loss.jpg){:.publication-toc-figure}
 
 2\. **Origin of Zonal Polarization in Mn3+/Mn2+ Plateau and Its Influence on the Electrochemical Performance of LiMn&gamma;Fe1&minus;&gamma;PO4**  
    Li, S.; Wang, L.\*; Zhu, H.; Liao, J.; Ye, J.; Huo, S.; Qi, M.; Liu, Y.\*; Xu, C.\*; Hou, T.\*; Chen, Z.; He, X.\*  
@@ -53,10 +54,12 @@ aside:
 7\. **<span class="research-highlight-title">Enabling the synthesis of O3-type sodium anion-redox cathodes via atmosphere modulation</span>**  
    Qiu, Y.; Liu, Q.; Tao, J.; Yan, P.; Tan, G.; Liu, F.; Wang, D.; Yu, N.; Zhang, N.; Yang, Y.; Wang, W.; Wang, Y.; Cao, K.; Wang, J.;\* Lun, Z.\*; Xu, C.\*  
    *Nature Communications* 16, 2343 (2025). [DOI](https://doi.org/10.1038/s41467-025-57665-1)
+   ![TOC figure for Enabling the synthesis of O3-type sodium anion-redox cathodes via atmosphere modulation](/assets/images/toc/natcomm-2025-o3-sodium.png){:.publication-toc-figure}
 
 6\. **<span class="research-highlight-title">Navigating low state of charge phase transitions in layered cathodes for long-life sodium-ion batteries</span>**  
    Li, W.; Li, Z.; Li, L.; Merryweather, A. J.; Chen, Y.; Yang, S.; Shi, H.; Lu, Y.; Qiu, Y.; Tan, G.; Chen, Z.; Wang, W.; Wang, Y.; Huang, Y.-F.; Lun, Z.; Schnedermann, C.; Gao, X.;\* Wang, J.;\* Grey, C. P.\*; Xu, C.\*  
    *Energy & Environmental Science* 18(12), 6032-6042 (2025). [DOI](https://doi.org/10.1039/D5EE00422E)
+   ![TOC figure for Navigating low state of charge phase transitions in layered cathodes for long-life sodium-ion batteries](/assets/images/toc/ees-2025-low-soc.gif){:.publication-toc-figure}
 
 5\. **Insights into the Fast-Charging Capability of Layered Ni-Rich Cathodes in Full-Cell Lithium-Ion Batteries**  
    Tan, G.; Wang, S.; Li, L.; Li, W.; Tao, J.; Yang, S.; Wang, W.; Wang, Y.; Zhang, N.; Xu, C.\*  
@@ -117,6 +120,7 @@ aside:
 7\. **<span class="research-highlight-title">Bulk fatigue induced by surface reconstruction in layered Ni-rich cathodes for Li-ion batteries</span>**  
   Xu, C.; Marker, K.; Lee, J.; Mahadevegowda, A.; Reeves, P. J.; Day, S. J.; Groh, M. F.; Emge, S. P.; Ducati, C.; Layla Mehdi, B.; Tang, C. C.; Grey, C. P.\*  
   *Nature Materials* 20, 84-92 (2021). [DOI](https://doi.org/10.1038/s41563-020-0767-8)
+  ![TOC figure for Bulk fatigue induced by surface reconstruction in layered Ni-rich cathodes for Li-ion batteries](/assets/images/toc/natmat-2021-bulk-fatigue.png){:.publication-toc-figure}
 
 6\. **<span class="research-highlight-title">Phase Behavior during Electrochemical Cycling of Ni-Rich Cathode Materials for Li-Ion Batteries</span>**  
   Xu, C.; Reeves, P. J.; Jacquet, Q.; Grey, C. P.\*  
