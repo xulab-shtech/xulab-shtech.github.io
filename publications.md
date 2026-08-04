@@ -16,10 +16,6 @@ aside:
 
 ## 2026
 
-6\. **A Dummy Paper for Publication Layout Testing**  
-   Doe, J.; Smith, A.; Xu, C.\*  
-   *Journal of Placeholder Research* 1(1), 1-10 (2026). [DOI](https://doi.org/10.0000/dummy.2026.001)
-
 5\. **Probing the critical nickel content for layered ultrahigh-nickel cathodes for high-energy-density lithium-ion batteries**  
    Tan, G.; Chen, Z.; Qiu, Y.; Yang, S.; Wang, S.; Zhang, X.; Fan, Z.; Xu, C.\*  
    *Journal of Power Sources* 688, 240525 (2026). [DOI](https://doi.org/10.1016/j.jpowsour.2026.240525)
